@@ -19,15 +19,9 @@ public class TireController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_frontTire && _targetRotation)
+        if (_targetRotation)
         {
-            Vector3 upVector = Vector3.Cross(transform.forward, _targetRotation.right);
-            Vector3 forwardVector = Vector3.Cross(_targetRotation.right, upVector);
-            transform.rotation = Quaternion.LookRotation(forwardVector, upVector);
-        }
-        else
-        {
-            transform.localRotation = Quaternion.identity; // Reset the child orientation so that the forward of the tire parent is forward of the vehicle.
+            transform.rotation = _targetRotation.rotation;
         }
         if (_tireChild)
         {
@@ -39,7 +33,7 @@ public class TireController : MonoBehaviour
                 distance = -distance;
             }
             float deltaAngle = 360f * distance / (2 * Mathf.PI * _radius);
-            _tireChild.localRotation = Quaternion.AngleAxis(deltaAngle, Vector3.left) * _tireChild.localRotation;
+            _tireChild.localRotation = Quaternion.AngleAxis(deltaAngle, Vector3.right) * _tireChild.localRotation;
         }
         _prevPos = transform.position;
     }

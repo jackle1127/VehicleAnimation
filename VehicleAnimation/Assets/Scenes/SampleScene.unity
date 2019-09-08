@@ -172,7 +172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tireChild: {fileID: 155120037}
   _frontTire: 1
-  _targetRotation: {fileID: 0}
+  _targetRotation: {fileID: 1696728480}
   _radius: 1.94
 --- !u!4 &57994266 stripped
 Transform:
@@ -200,7 +200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tireChild: {fileID: 669323696}
   _frontTire: 1
-  _targetRotation: {fileID: 0}
+  _targetRotation: {fileID: 549334350}
   _radius: 1.94
 --- !u!4 &155120037 stripped
 Transform:
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tireChild: {fileID: 787580226}
   _frontTire: 1
-  _targetRotation: {fileID: 0}
+  _targetRotation: {fileID: 1696728480}
   _radius: 1.94
 --- !u!1 &205948100
 GameObject:
@@ -281,7 +281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tireChild: {fileID: 1756487180}
   _frontTire: 1
-  _targetRotation: {fileID: 0}
+  _targetRotation: {fileID: 549334350}
   _radius: 1.94
 --- !u!1001 &243751698
 PrefabInstance:
@@ -629,7 +629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tireChild: {fileID: 1199114797}
   _frontTire: 1
-  _targetRotation: {fileID: 0}
+  _targetRotation: {fileID: 1696728480}
   _radius: 1.94
 --- !u!1 &549334349
 GameObject:
@@ -906,7 +906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tireChild: {fileID: 890256613}
   _frontTire: 1
-  _targetRotation: {fileID: 0}
+  _targetRotation: {fileID: 1696728480}
   _radius: 1.94
 --- !u!4 &1199114797 stripped
 Transform:
@@ -995,7 +995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tireChild: {fileID: 433646879}
   _frontTire: 1
-  _targetRotation: {fileID: 0}
+  _targetRotation: {fileID: 549334350}
   _radius: 1.94
 --- !u!4 &1361777167 stripped
 Transform:
@@ -1182,7 +1182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tireChild: {fileID: 57994266}
   _frontTire: 1
-  _targetRotation: {fileID: 0}
+  _targetRotation: {fileID: 549334350}
   _radius: 1.94
 --- !u!1 &1696728479
 GameObject:
